@@ -1,0 +1,1 @@
+import{r as t,x as c}from"./index-BLzEd4n4.js";function s(){}const u=t.createContext({add:s,remove:s});function m(n){const r=t.useContext(u),o=t.useRef();return c(e=>{if(e){const a=n?e.querySelector(n):e;r.add(a),o.current=a}else r.remove(o.current)})}export{m as u};
