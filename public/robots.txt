@@ -1,0 +1,29 @@
+# tiki-fe robots file
+
+User-agent: *
+Disallow: /customer/account
+Disallow: /customer/wishlist
+Disallow: /customer/review
+Disallow: /customer/reward
+Disallow: /customer/bookcare
+Disallow: /customer/notification
+Disallow: /sales/order/history
+Disallow: /order/tracking
+Disallow: /checkout/cart
+Disallow: /checkout/shipping
+Disallow: /checkout/payment
+Disallow: /catalogsearch/result/
+Disallow: /tu-van/
+Disallow: /~partytown
+Disallow: /feed/
+
+Sitemap: https://tiki.vn/seo/sitemaps/main-index.xml
+Sitemap: https://tiki.vn/seo/sitemaps/seller.xml
+Sitemap: https://tiki.vn/seo/sitemaps/brickv2.xml
+Sitemap: https://tiki.vn/clover/sitemap/book-author
+Sitemap: https://tiki.vn/clover/sitemap/book-publisher
+Sitemap: https://tiki.vn/clover/sitemap/brand
+Sitemap: https://tiki.vn/clover/seo/search/topkeyword.xml
+Sitemap: https://tiki.vn/clover/seo/search/topkeyword-250v
+Sitemap: https://tiki.vn/clover/seo/search/top-keywords-t4-2023
+Sitemap: https://tiki.vn/clover/seo/search/top-keywords-t7-2023
