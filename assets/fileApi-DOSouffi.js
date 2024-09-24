@@ -1,0 +1,1 @@
+import{aJ as e,f as a}from"./index-DjMeigVS.js";const t=async s=>(await e.post(`${a}/v1/file`,s)).data,n=async s=>(await e.post(`${a}/v1/file/base64`,s)).data,r=async s=>(await e.post(`${a}/v1/file/3d`,s)).data,i=async s=>(await e.post(`${a}/v1/file/video`,s)).data,c={uploadFile:t,fileBase64:n,file3D:r,video:i};export{c as f};
