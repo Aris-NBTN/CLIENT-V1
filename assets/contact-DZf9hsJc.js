@@ -1,0 +1,1 @@
+import{a8 as e}from"./index-BBqC9kcG.js";const t="/v1/contact",o=async s=>await e.get(`${t}/${s.filename}`,s),a=async s=>await e.delete(`${t}/${s}`),c=async s=>await e.put(`${t}`,s),p={get:o,del:a,put:c};export{p as c};
